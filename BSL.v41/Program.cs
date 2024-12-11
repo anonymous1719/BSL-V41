@@ -31,7 +31,7 @@ public abstract class Program : Initializer
         {
             Start();
 
-            loader.SetParameters("192.168.0.38", [9449, 9549, 9649, 9749, 9849, 9949, 9459, 9469, 9479, 9489],
+            loader.SetParameters("10.127.104.33", [9449, 9549, 9649, 9749, 9849, 9949, 9459, 9469, 9479, 9489],
                 [9319, 9329, 9339, 9349, 9359, 9369, 9379, 9389]);
             loader.LoadNet();
             loader.ManageNet(); 
